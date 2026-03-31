@@ -1,3 +1,8 @@
+// 각 재귀별 first index랑 last index에서는 한 줄 전부 '*' 로 바꿔주는게 포인트
+// 각 재귀별 first index랑 last index에서는 줄의 양 끝에 '*' 로 바꿔주는게 포인트
+// 재귀 파라미터는 first index+2 / last index-2 로 index값 update 각 재귀에서의 max Stars 개수도 업데이트
+// 핵심 알고리즘 funtion(i) = i+(3*(i-1))
+
 package algorithm;
 
 import java.io.BufferedReader;
